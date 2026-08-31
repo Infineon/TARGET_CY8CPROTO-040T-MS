@@ -6,8 +6,8 @@
 #
 ################################################################################
 # \copyright
-# Copyright 2019-2022 Cypress Semiconductor Corporation (an Infineon company) or
-# an affiliate of Cypress Semiconductor Corporation
+# Copyright (c) 2019-2026 Infineon Technologies AG
+# an affiliate of Infineon Technologies AG
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -47,7 +47,8 @@ DEVICE_COMPONENTS:=CAT2 PSOC4000T
 DEVICE_CY8C4046LQI-T452_CORES:=CORE_NAME_CM0P_0
 DEVICE_CY8C4046LQI-T452_DIE:=PSoC4ASF2
 DEVICE_CY8C4046LQI-T452_FLASH_KB:=64
+DEVICE_CY8C4046LQI-T452_IPBLOCKS:=M0S8CPUSSV3_S8 M0S8CPUSSV3_S8_V3 M0S8IOSS M0S8IOSS_V1 M0S8MSCV3LP M0S8MSCV3LP_V1 M0S8PERI M0S8PERI_V1 M0S8TCPWM_VER2 M0S8TCPWM_VER2_V2 MXSCB MXSCB_V3 S8SRSSLT S8SRSSLT_V1
 DEVICE_CY8C4046LQI-T452_SRAM_KB:=8
 DEVICE_LIST:=CY8C4046LQI-T452
-DEVICE_TOOL_IDS:=bsp-assistant capsense-configurator capsense-tuner device-configurator dfuh-tool library-manager project-creator sensor-designer-tool
+DEVICE_TOOL_IDS:=bsp-assistant capsense-configurator capsense-tuner device-configurator dfuh-tool library-manager lin-configurator project-creator sensor-designer-tool
 RECIPE_DIR:=$(SEARCH_recipe-make-cat2)
